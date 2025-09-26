@@ -1,0 +1,44 @@
+body{
+    background-color: #dbe2dc;
+   }
+    h1{
+     color: #335765;
+     text-align: center;
+    font-size: 50px;
+    }
+p{
+    font-size: 20px;
+    color: #4f6367;
+}
+ul{
+    font-size: 20px;
+    color: #4f6367;
+}
+ .myclass{
+    color:#4f6367; 
+ }
+
+
+ a:link{
+    color:#7f5a58;
+ }
+  a:hover{
+    color:#a23438;
+ }
+  a:active{
+color:#870e8e;
+ }
+ img[src$=".jpg"]{
+    box-shadow: 5px 5px 5px grey;
+ }
+ p::first-letter{
+    font-size: 25px;
+    color: #053442;
+ }
+ a[href^="https"]{
+    font-weight: bold;
+ }
+ div>p{
+    font-size: 25px;
+    color: #4f6367;
+ }
