@@ -1,0 +1,129 @@
+body{
+    background-color: #dbe2dc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico',Tahoma, Verdana, sans-serif;
+    /*font-family: 'Fantasy',Tahoma, Verdana, sans-serif;*/
+    
+   }
+    h1{
+     color: #335765;
+     text-align: center;
+     font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    margin-top:30px;
+    }
+h2{
+
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align:center;
+    color:#157297;
+    font-size:35px;
+    font-family: 'Great Vibes', cursive;
+}
+
+p{
+    font-size: 20px;
+    font-family:'Calibri', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: #4f6367;
+    line-height:1.5;
+    padding:5px;
+}
+
+p::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+    color: #053442;
+}
+
+p{
+    margin-top:20px;
+}
+p{
+    margin-bottom:10px;
+}
+
+ul{
+    font-size: 20px;
+    font-family:'Calibri', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: square;
+    font-style:italic;
+    color: #4f6367;
+}
+ .myclass{
+    color:#4f6367; 
+    /*background-color:#aebac8; im not liking how it is showing on my page thats why im not adding it but i've tried it :)*/
+ }
+a{
+    /*font-family: 'Pacifico',Tahoma, Verdana, sans-serif;*/
+     font-family:'Calibri', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-size: 20px;
+
+}
+img{
+    width:200px;
+    height:200px;
+    margin-top:15px;
+   margin-bottom: 15px;
+    display: block;
+}
+ a:link{
+    color:#7f5a58;
+ }
+  a:hover{
+    color:#a23438;
+ }
+  a:active{
+color:#0e5d8e;
+ }
+ img[src$=".jpg"]{
+    box-shadow: 5px 5px 5px grey;
+    border-radius:10px;
+    width:250px;
+    height:auto;
+    margin:20px;
+    border: 5px solid rgba(51, 87, 101, 0.4);
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.3);
+ }
+ p::first-letter{
+    font-size: 25px;
+    color: #053442;
+ }
+ a[href^="https"]{
+    font-weight: bold;
+ }
+ div>p{
+    font-size: 25px;
+    color: #4f6367;
+ }
+ #overflow-box{
+    width:80%;
+    height: 120px;
+    margin:20px;
+    border: 2px dashed #335765;
+    overflow: scroll;
+    padding:15px;
+    background-color: #f7f9f8;
+    font-family: "Lucinda Handwriting", cursive;
+    font-style: italic;
+ }
+ @media(max-width:770px){
+    body{
+        background-color:#cfe7ea;
+
+    }
+    p,ul{
+        width:90%;
+        font-size:20px;
+    }
+    h1{
+        font-size:40px;
+    }
+    img[src$=".jpg"]{
+        width:180px;
+        
+    }
+ }
