@@ -20,7 +20,7 @@ h2{
     text-align:center;
     color:#157297;
     font-size:35px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Great Vibes', cursive !important;
 }
 
 p{
@@ -127,4 +127,78 @@ color:#0e5d8e;
         
     }
  }
- 
+.mi-profile td{
+    border: 1px solid #ccc;
+    padding:8px 10px;
+    font-family: 'Calibri', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: cursive;
+}
+.mi-profile caption{
+    font-weight: bold;
+    font-family:'Calibri', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-size: 1.1em;
+}
+.mi-profile th{
+background-color: #dbe2dc;
+text-align:center;
+font-weight:bold;
+font-style: normal;
+}
+
+.mi-profile tr:hover td{
+    background-color: #f6f6f6;
+}
+
+
+.mi-contactform{
+    width: 400px;
+    margin:20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+   /*font-family: 'Great Vibes', cursive;*/
+    border-radius:10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Calibri', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+legend{
+    
+    color: #006666;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+fieldset{
+    padding: 15px;
+    border: 1px solid #009999;
+    border-radius:6px;
+}
+input, select, textarea{
+    font-family: 'Calibri', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    border-radius:5px;
+    padding:5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="radio"],input[type="checkbox"]{
+    width: auto;
+}
+input[type="submit"], input[type="reset"]{
+background-color: #009999;
+color:white;
+border:none;
+padding: 8px 15px;
+cursor: pointer;
+border-radius:6px;
+margin-top:10px;
+}
+input[type="submit"]:hover{
+    background-color: #007777;
+}
+input[type="reset"]:hover{
+    background-color: #007777;
+}
